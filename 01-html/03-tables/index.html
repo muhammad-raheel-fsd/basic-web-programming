@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <h2>Basic Table</h2>
+
+    <!-- <table border="1">
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Email</td>
+          <td>Phone</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>john@gmail.com</td>
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <td>Jane Doe</td>
+          <td>jane@gmail.com</td>
+          <td>1234567890</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table> -->
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td rowspan="2">john@gmail.com (2X2)</td>
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <td>Jane Doe</td>
+          <!-- <td style="background-color: rebeccapurple">jane@gmail.com</td> -->
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <td colspan="3">Jane Doe (4X1)</td>
+          <!-- <td>jane@gmail.com</td> -->
+          <!-- <td>1234567890</td> -->
+        </tr>
+        <tr>
+          <td>Jane Doe</td>
+          <td colspan="2">jane@gmail.com (5X2)</td>
+          <!-- <td>1234567890</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
