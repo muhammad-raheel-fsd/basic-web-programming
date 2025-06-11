@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- <h1 style="background-color: red">Forms</h1> -->
+    <!-- <span style="background-color: red">Forms</span> -->
+    <h2>Learning Forms</h2>
+
+    <form action="">
+      <label for="name">Your Good Name: </label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+      <br />
+      <!-- <input type="tel" placeholder="Enter your phone number" /> -->
+      <label for="phone">Your Phone Number: </label>
+      <input
+        id="phone"
+        type="number"
+        placeholder="Enter your phone number"
+        inputmode="numeric"
+        required
+      />
+      <br />
+
+      <label for="email">Your Email</label>
+      <input id="email" type="email" placeholder="Enter your email" />
+      <br />
+
+      <label for="password">Your Password</label>
+      <input id="password" type="password" placeholder="Enter your password" />
+      <br />
+
+      <label for="gender">Your Gender: </label>
+      <label for="male">Male</label>
+      <input id="male" type="radio" name="gender" value="male" />
+      <label for="female">Female</label>
+      <input id="female" type="radio" name="gender" value="female" /><br />
+
+      <label>Hobbies</label>
+      <label for="cricket">Cricket</label>
+      <input id="cricket" type="checkbox" name="hobbies" value="cricket" />
+      <label for="hockey">Hockey</label>
+      <input id="hockey" type="checkbox" name="hobbies" value="hockey" />
+      <label for="football">Football</label>
+      <input id="football" type="checkbox" name="hobbies" value="football" />
+      <label for="reading">Reading</label>
+      <input id="reading" type="checkbox" name="hobbies" value="reading" />
+      <label for="music">Music</label>
+      <input id="music" type="checkbox" name="hobbies" value="music" />
+      <br />
+
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+      <!-- <button>Submit Form</button> -->
+    </form>
+  </body>
+</html>
