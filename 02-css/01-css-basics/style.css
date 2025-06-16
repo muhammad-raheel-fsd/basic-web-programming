@@ -1,4 +1,23 @@
+/* Element selector */
 h1 {
-  background-color: red;
+  background-color: aqua;
   color: blue;
+}
+
+/* Id selector */
+#heading {
+  background-color: green;
+  color: orange;
+}
+
+/* Class selector */
+.heading {
+  background-color: yellow;
+  color: purple;
+}
+
+/* Universal selector */
+* {
+  background-color: black;
+  color: white;
 }

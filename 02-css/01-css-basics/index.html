@@ -6,12 +6,12 @@
     <title>Basic CSS</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Internal css -->
-    <style>
+    <!-- <style>
       h1 {
         background-color: green;
         color: orange;
       }
-    </style>
+    </style> -->
   </head>
 
   <!-- Css (Cascading Style Sheets) is a language that describes the style of an HTML document. -->
@@ -29,16 +29,27 @@
   <!-- 2. Internal css - by using a <style> element in the <head> section of the HTML document -->
   <!-- 3. External css - by using a <link> element to link to an external CSS file -->
 
+  <!-- Selectors in CSS -->
+  <!-- 1. Element selector - selects all elements of the given type e.g h1, p, div, etc. -->
+  <!-- 2. Id selector - selects an element with the given id e.g #id -->
+  <!-- 3. Class selector - selects all elements with the given class e.g .class -->
+  <!-- 4. Universal selector - selects all elements e.g * -->
+  <!-- 5. Attribute selector - selects elements with the given attribute e.g [attribute] -->
+  <!-- 6. Pseudo-class selector - selects elements based on a certain state e.g :hover, :active, :focus, etc. -->
+  <!-- 7. Pseudo-element selector - selects a part of an element e.g ::before, ::after, etc. -->
+  <!-- 8. Combinator selector - selects elements based on a certain relationship between them e.g +, >, ~, space, etc. -->
+  <!-- 9. Negation selector - selects elements that do not match a certain selector e.g :not(selector) -->
+
   <body>
-    <h1 style="color: red; background-color: aqua">Hello World</h1>
-    <span style="color: red; background-color: aqua">Hello World</span>
-    <h1>Hello World 2</h1>
+    <!-- <h1 style="color: red; background-color: aqua">Hello World</h1>
+    <span style="color: red; background-color: aqua">Hello World</span> -->
+    <h1 id="heading">Hello World 2</h1>
     <h1>Hello World 3</h1>
     <h1>Hello World 4</h1>
-    <h1>Hello World 5</h1>
+    <h1 id="heading">Hello World 5</h1>
     <h1>Hello World 6</h1>
-    <h1>Hello World 7</h1>
-    <h1>Hello World 8</h1>
+    <h1 class="heading">Hello World 7</h1>
+    <h1 class="heading">Hello World 8</h1>
     <h1>Hello World 9</h1>
   </body>
 </html>
